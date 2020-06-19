@@ -1,0 +1,43 @@
+{
+  "name": "task-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "lint:fix" : "eslint ./src --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-preset-react": "^6.24.1",
+    "dotenv-webpack": "^1.8.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "path": "^0.12.7",
+    "prettier": "^2.0.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "@material-ui/core": "^4.10.2",
+    "axios": "^0.19.2",
+    "babel-loader": "^8.1.0",
+    "dotenv": "^8.2.0",
+    "git": "^0.1.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
